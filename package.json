@@ -1,0 +1,28 @@
+{
+  "name": "@foxythemes/jsonline-remover-cli",
+  "version": "1.0.0",
+  "description": "Remove a line who match a pattern",
+  "main": "lib/jsonline-remover-cli.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "lineremover": "./lib/jsonline-remover-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxythemes/jsonline-remover-cli.git"
+  },
+  "author": "Jhon Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxythemes/jsonline-remover-cli/issues"
+  },
+  "homepage": "https://github.com/foxythemes/jsonline-remover-cli#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2"
+  }
+}
